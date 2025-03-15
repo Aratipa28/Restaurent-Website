@@ -1,0 +1,37 @@
+* {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+   background-color: seashell;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 4px 3px rgb(130, 67, 193);
+    position: relative;
+    top: 110px;
+}
+p{
+    position: relative;
+    top: 90px;
+    font-size: 25px;
+    
+}
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 90px;
+    box-shadow: 0px 0px 4px 3px black;
+    /* cursor: pointer; */
+}
+
+
+button:hover {
+    background-color: green;
+}

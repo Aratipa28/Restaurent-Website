@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section3 {
+    height: 100vh;
+    width:100%;
+    background-color:rgb(219, 214, 214) ;
+}
+.section3 .about h1{
+    height: 50px;
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+.section3  img{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 10px;
+     box-shadow: 2px 2px 2px  black;
+    
+
+}
+
+.section3 .about1 p{
+    height: 800px;
+    width: 700px;
+    position: relative;
+    top: -450px;
+    left: 450px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.section3 .about1 button{
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    bottom: 810px;
+    left: 700px;
+    
+}
+    

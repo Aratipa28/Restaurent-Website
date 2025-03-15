@@ -1,0 +1,195 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px red;
+    font-style: italic;
+
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    position: relative;
+    top: 40px;
+}
+
+.wrapper {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro {
+    flex: 1;
+}
+
+.intro h2 {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    color: blue;
+    font-size: 30px;
+}
+
+.intro p {
+    position: relative;
+    top: 50px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+
+.profile1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    position: relative;
+    top: 80px;
+}
+
+.wrapper1 {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro1 {
+    flex: 1;
+}
+
+.intro1 h2 {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+    color: blue;
+    font-size: 30px;
+}
+
+.intro1 p {
+    position: relative;
+    top: 120px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.profile2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    position: relative;
+    top: 140px;
+}
+
+.wrapper2 {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro2 {
+    flex: 1;
+}
+
+.intro2 h2 {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 140px;
+    color: blue;
+    font-size: 30px;
+}
+
+.intro2 p {
+    position: relative;
+    top: 160px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.profile3 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    position: relative;
+    top: 190px;
+}
+
+.wrapper3 {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro3 {
+    flex: 1;
+}
+
+.intro3 h2 {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 170px;
+    color: blue;
+    font-size: 30px;
+}
+
+.intro3 p {
+    position: relative;
+    top: 190px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.back button{
+    background-color: lightblue;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: 600px;
+    top: 230px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 15px;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    height: 100rem;
+    width: 100%;
+    background-image: url(./image/menubg2.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.section .menu h1{
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 3px 3px 4px black;
+    position: relative;
+    left: 400px;
+}
+
+.section .menu h2{
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    left: 400px;
+    top: 18px;
+}
+
+.section .breakfast button{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px 10px 15px 0px ;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.section .lunch button{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px 10px 15px 0px ;
+    position: relative;
+    left: 150px;
+    top: 170px;
+    box-shadow: 2px 2px 2px black;
+}
+.section .dinner button{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px 10px 15px 0px ;
+    position: relative;
+    left: 150px;
+    top: 190px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.section .dessert button{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px 10px 15px 0px ;
+    position: relative;
+    left: 150px;
+    top: 210px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.section .back button{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 15px 10px 15px 0px ;
+    position: relative;
+    left: 150px;
+    top: 240px;
+    box-shadow: 2px 2px 2px chocolate;
+}
+

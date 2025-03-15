@@ -1,0 +1,71 @@
+
+ /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+    background-color: rgb(217, 225, 232);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Section */
+.contact {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow:  0 3px 7px 5px rgb(156, 154, 154);
+    border-radius: 8px;
+}
+
+/* Heading Styles */
+.contact h1 {
+    text-align: center;
+    color: #333;
+    font-size: 50px;
+}
+
+.contact h1 span {
+    color: red;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    position: relative;
+    left: 50px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px;
+    border: none;
+    background-color: salmon;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 40px;
+}
+
+.btn:hover {
+    background-color: #e5533f;
+}

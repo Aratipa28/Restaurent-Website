@@ -1,0 +1,42 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    text-align: center;
+    background-color: rgb(196, 217, 235);
+    
+} 
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 2px goldenrod;
+}
+p{
+    position: relative;
+    bottom: 15px;
+    color: royalblue;
+}
+.scanner img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border: none;
+    box-shadow: 0px 0px 4px 5px rgb(170, 168, 168);
+    position: relative;
+    bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    position: relative;
+    bottom: 15px;
+}
+
+button:hover {
+    background-color: red;
+}

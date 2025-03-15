@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.section{
+    height:100rem;
+    width: 100%;
+    background-color:white;
+
+}
+.section .main h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 2px 0px palevioletred;
+}
+/* .parent :hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+} */
+.parent .img-section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parent .img-section .first{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black; 
+    position: relative;
+    bottom: 1540px;
+   right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+   
+}
+.parent .img-section .first img{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.parent .img-section .first .price{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+}
+.parent .img-section .first h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.parent .img-section .first p{
+    padding-top: 9px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.parent .img-section .first button{
+    background-color: red;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 70px;  
+    font-size: 15px;
+    font-weight: 700;
+}
+   
+.parent .img-section1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parent .img-section1 .second{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black; 
+    position: relative;
+    bottom: 1540px;
+   right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+   
+}
+.parent .img-section1 .second img{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.parent .img-section1 .second h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.parent .img-section1 .second p{
+    padding-top: 9px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.parent .img-section1 .second .price{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+}
+.parent .img-section1 .second button{
+    background-color: red;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 70px;  
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.parent .img-section2{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parent .img-section2 .three{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black; 
+    position: relative;
+    bottom: 1540px;
+   right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+   
+}
+.parent .img-section2 .three img{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.parent .img-section2 .three h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.parent .img-section2 .three .price{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+}
+.parent .img-section2 .three p{
+    padding-top: 9px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.parent .img-section2 .three button{
+    background-color: red;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 70px;  
+    bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.parent .img-section3{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parent .img-section3 .four{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black; 
+    position: relative;
+    bottom: 1540px;
+    right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+   
+}
+.parent .img-section3 .four img{
+    width: 300px;
+    border-radius: 20px;
+}
+.parent .img-section3 .four h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.parent .img-section3 .four p{
+    padding-top: 9px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.parent .img-section3 .four .price{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+}
+.parent .img-section3 .four button{
+    background-color: red;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 70px;  
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.section2 button{
+    background-color: red;
+    position: relative;
+    bottom: 1500px;
+    left: 600px;
+    height: 35px;
+    width: 140px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px black;
+}

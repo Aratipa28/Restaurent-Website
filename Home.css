@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 130vh;
+    top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.section {
+    height: 600px;
+    width: 100%;
+}
+.section .main{
+    background-image: url(./image/background.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section .main h1{
+    color: peachpuff;
+    font-size: 80px;
+    position: relative;
+    left: 50px;
+    top: 80px;
+    font-family: "Playwrite NG Modern Guides", cursive;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px 2px rebeccapurple;
+    
+}
+
+.section .main p{
+    font-size: 20px;
+  
+    color: white;
+    position: relative;
+    left: 90px;
+    top: 90px;
+    text-shadow: 3px 3px 4px red;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ .section .main button{
+    font-size: 18px;
+    font-weight: 30px;
+    background-color: red;
+    color: black;
+    height: 45px;
+    width: 140px;
+     border: 3px solid black; 
+    box-shadow: 3px 3px 4px 3px rgb(215, 164, 164);
+    position: relative;
+    left: 200px;
+    top: 110px;
+}
+
